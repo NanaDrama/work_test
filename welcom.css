@@ -41,7 +41,7 @@
     text-align: center;
     font-size: var(--button-font-size);
     font-weight: 600;
-    margin: 40px 28%  20px 28%;
+    margin: 40px auto;
     display: block;
     padding: 15px 30px;
     border-width: 1px;

@@ -1,79 +1,87 @@
-.partners {
-    margin: 10px 0px;
-    padding: 60px 0px;
-    border-width: 1px;
-    border-radius: 50px 50px 50px 50px;
+.activity {
+  margin: 10px 10px;
+  padding: 60px 15px;
 }
 
-.partners__text{
-    color: var(--title-color);
-    text-align: center;
-    height: 36px;
-    width: 134px;
-    align-items: center;
-    padding: 7.5px 22.5px;
-    border-width: 1px;
-    border-radius: 50px 50px 50px 15px;
-    margin: auto;
-    font-size: var(--text-font-size);
-    font-weight: 500;
-    background-color: var(--background-button-color);
+.activity__text{
+  color: var(--title-color);
+  text-align: center;
+  width: 127.5px;
+  height: 33px;
+  align-items: center;
+  padding: 7.5px 22.5px;
+  border-width: 1px;
+  border-radius: 50px 50px 50px 15px;
+  margin: auto;
+  font-size: var(--text-font-size);
+  font-weight: 500;
+  background-color: var(--background-button-color);
 }
 
-.partners__title{
-    color: var(--title-color);
-    text-align: center;
-    font-size: var(--title-font-size);
-    font-weight: 800;
-    margin: 22.5px 0px;
+.activity__title{
+  color: var(--title-color);
+  text-align: center;
+  font-weight: 800;
+  font-size: var(--title-font-size);
+  margin: 15px 5px;
 }
 
-.partners__description{
-    color: var(--text-color);
-    text-align: center;
-    font-size: var(--description-font-size);
-    font-weight: 400;
+.concept__title{
+  color: var(--title-color);
+  text-align: center;
+  font-size: 16.8px;
+  font-weight: 600;
+  margin: 25px auto auto auto;
 }
 
-.partners-container {
-    align-items: center;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px; 
-    grid-column-gap: 10px;
-  }
-  
-  .partners__Microsoft, .partners__Netflix {
-    grid-row: 1;
-  }
-  
-  .partners__Desjardins, .partners__prime {
-    grid-row: 2; 
-  }
-  
-  .partners__Lamborghini, .partners__Lavazza {
-    grid-row: 3;
-  }
-
-.partners__Microsoft,
-.partners__Netflix,
-.partners__Desjardins,
-.partners__prime,
-.partners__Lamborghini,
-.partners__Lavazza {
-    background-color: var(--background-button-color);
-    border-width: 1px;
-    text-align: center;
-    border-radius: 30px; 
-    padding: 67px 15px;
-    margin: auto;
-    width: 90%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.concept__text{
+  color: var(--text-color);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  padding: 15px 30px;
 }
 
+.concept__icon{
+  margin: 10px auto;
+   width: 45px;
+   padding: 5px;
+   border-width: 1px;
+   border-radius: 10px;
+}
+.activity__concept,
+.activity__filming,
+.activity__post{
+  background-color: var(--background-button-color);
+  border-width: 1px;
+  border-radius: 25px;
+  padding: 22.5px 10px;
+  margin: 30px auto;
+}
 
+.activity__foto{
+  display: flex;
+}
 
+.foto__container{
+  flex: 1;
+  display: flex;
+  margin: auto 10px;
+  flex-direction: column;
+}
+
+.foto__container:first-child {
+  justify-content: flex-start; 
+}
+
+.foto__container:not(:first-child) {
+  justify-content: space-between; 
+}
+
+.foto{
+  margin: auto;
+  padding: auto;
+  border-width: 1px;
+  border-radius: 20px;
+}
