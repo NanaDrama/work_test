@@ -1,0 +1,63 @@
+.welcome {
+    margin: 10px 20px;
+    padding: 60px 15px;
+    border-width: 1px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: var(--background-button-color);
+}
+
+.welcome__text{
+    color: var(--title-color);
+    text-align: center;
+    height: 36px;
+    width: 113px;
+    align-items: center;
+    padding: 7.5px 22.5px;
+    border-width: 1px;
+    border-radius: 50px 50px 50px 15px;
+    margin: auto;
+    font-size: var(--text-font-size);
+    font-weight: 500;
+    background-color: var(--background-color);
+}
+
+.welcome__title{
+    color: var(--title-color);
+    text-align: center;
+    font-weight: 800;
+    margin: 15px 5px;
+}
+
+.welcome__description{
+    color: var(--text-color);
+    text-align: center;
+    font-size: var(--description-font-size);
+    font-weight: 400;
+}
+
+.welcome__let{
+    color: var(--background-color);
+    background-color: white;
+    text-align: center;
+    font-size: var(--button-font-size);
+    font-weight: 600;
+    margin: 40px 28%  20px 28%;
+    display: block;
+    padding: 15px 30px;
+    border-width: 1px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.welcome__learn{
+    color: white;
+    background-color: var(--background-color);
+    text-align: center;
+    font-size: var(--button-font-size);
+    font-weight: 600;
+    margin: 10px 28%;
+    display: block;
+    padding: 15px 30px;
+    border-width: 1px;
+    border-radius: 50px 50px 50px 50px;
+}
+
