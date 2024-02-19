@@ -1,0 +1,35 @@
+.connect {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-button-color);
+    border-width: 1px;
+    border-radius: 20px;
+    margin: 0px 15px;
+    padding: 40px 40px 20px 40px;
+}
+
+.connect__title{
+    margin: 20px auto 60px auto;
+    color: white;
+    font-size: 33px;
+    text-align: center;
+}
+
+.connect__button{
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px;
+    background-color: white;
+    color: var(--background-color);
+    border-width: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-align: center;
+    width: 169px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
