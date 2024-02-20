@@ -1,0 +1,35 @@
+.footer{
+    margin: 60px 15px 20px 15px;
+}
+
+.footer__text{
+    color: var(--text-color);
+    font-size: 16.85px;
+    font-weight: 400;
+    margin: 15px auto;
+    width:100%;
+}
+.footer__company{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title{
+    color:white;
+    font-size: var(--description-font-size);
+}
+
+.footer__icon{
+    width: 40px;
+    border-width: 1px;
+    border-radius: 60px;
+    margin: 0 0 0 15px ;
+    padding: 7px;
+    background-color: var(--text-color);
+}
+
+.footer__socialmedia{
+    display: flex;
+    flex-direction: row;
+    
+}
